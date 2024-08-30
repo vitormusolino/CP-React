@@ -1,3 +1,6 @@
+import Tela1 from "../../assets/tela1.png"
+import Tela2 from "../../assets/tela2.png"
+
 export default function IntroducaoSobre() {
     return ( <>
         <div className="container container-sobre">
@@ -7,8 +10,8 @@ export default function IntroducaoSobre() {
              <a href="/contato">Baixe o App</a>
             </div>
             <div className="flex-image">
-                <img src="../public/tela1.png" alt="" />
-                <img src="../public/tela1.png" alt="" />
+                <img src={Tela1} alt="" />
+                <img src={Tela2} alt="" />
             </div>
         </div>
     </> );

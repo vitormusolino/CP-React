@@ -1,3 +1,5 @@
+import ImgCorporativo from "../../assets/corporativo.svg"
+
 export default function Planos() {
     return (
         <div className="bg-planos">
@@ -47,7 +49,7 @@ export default function Planos() {
                     </div>
                     <div className="card-container">
                         <div className='img-corporativo'>
-                            <img src="../public/corporativo.svg" alt="Mulher segurando um celular" />
+                            <img src={ImgCorporativo} alt="Mulher segurando um celular" />
                         </div>
                         <button className="button">Entre Em Contato</button>
                     </div>

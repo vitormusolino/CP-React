@@ -1,3 +1,5 @@
+import HeroImage from "../../assets/Heroimage.png"
+
 export default function Introducao() {
     return ( <>
     <div className="container container-principal">
@@ -7,7 +9,7 @@ export default function Introducao() {
             <a href="/sobre">Começar agora</a>
          </div>
          <div>
-             <img src="../public/Heroimage.png" alt="" />
+             <img src={HeroImage} alt="" />
          </div>
     </div>
         </> );

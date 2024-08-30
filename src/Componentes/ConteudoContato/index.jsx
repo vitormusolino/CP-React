@@ -1,12 +1,16 @@
+import Twitter from "../../assets/Twitter.svg"
+import Instagram from "../../assets/Instagram.svg"
+import Discord from "../../assets/Discord.svg"
+
 function ConteudoContato() {
     return ( <>
         <div className="container container-contato">
             <div className="titulo-contato">
                 <h1>Dúvidas e suporte, entre em contato:</h1>
                 <div>
-                    <img src="../public/Twitter.svg" alt="" />
-                    <img src="../public/Instagram.svg" alt="" />
-                    <img src="../public/Discord.svg" alt="" />
+                    <img src={Twitter} alt="" />
+                    <img src={Instagram} alt="" />
+                    <img src={Discord} alt="" />
                 </div>
             </div>
             <div className="forms">
