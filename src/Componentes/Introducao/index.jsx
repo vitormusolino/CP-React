@@ -7,7 +7,7 @@ export default function Introducao() {
             <a href="/sobre">Começar agora</a>
          </div>
          <div>
-             <img src="../public/Hero image.png" alt="" />
+             <img src="../public/Heroimage.png" alt="" />
          </div>
     </div>
         </> );

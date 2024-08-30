@@ -1,6 +1,9 @@
+import ConteudoContato from "../Componentes/ConteudoContato";
+
+
 function Contato() {
     return ( <>
-    <h1>Página Contato</h1>
+        <ConteudoContato/>
     </> );
 }
 

@@ -111,6 +111,7 @@ header ul li a{
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .introducao{
@@ -121,6 +122,11 @@ header ul li a{
   p{
     font-size: 2.5rem;
   }
+}
+
+.flex-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .flex-image img{
@@ -223,4 +229,67 @@ header ul li a{
   display: flex;
   justify-content: center;
   margin: auto 0;
+}
+
+/************************************************************** CONTATO **************************************************************/
+
+.container-contato{
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-evenly;
+}
+
+.titulo-contato{
+  font-size: 3rem;
+  max-width: 30ch;
+  color: var(--cor-cinza);
+
+  div img{
+    margin: 40px 40px 40px 0px;
+  }
+}
+
+
+.forms{
+  border-left: 3px solid #cccccc;
+  padding-left: 100px;
+}
+
+.forms form{
+  display: grid;
+  font-size: 3rem;
+}
+
+form input{
+  grid-column: 2;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 2px #cccccc;
+  height: 40px;
+  border: none;
+}
+
+form label{
+  grid-column: 1;
+  margin-bottom: 20px;
+  color: var(--cor-cinza);
+  font-weight: 500;
+}
+
+#message{
+    grid-column: 1 / span 2;
+    margin-bottom: 50px;
+    height: 200px;
+    box-shadow: 2px 2px 2px 2px #cccccc;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-forms{
+  grid-row: 5;
+  background-color: var(--cor-azul);
+  color: var(--cor-branca);
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
 }
