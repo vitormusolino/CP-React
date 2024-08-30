@@ -1,0 +1,188 @@
+:root{
+  --cor-cinza: #333333;
+  --cor-branca: #ffffff;
+  --cor-azul: #6975E8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+header{
+  padding: 30px;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li a{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: var(--cor-cinza);
+  font-size: 25px;
+}
+
+.container{
+  max-width: 132rem;
+  margin: auto;
+}
+
+.container-principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+.introducao{
+  color: var(--cor-cinza);
+  gap: 20px;
+  h1{
+    font-size: 5rem;
+  }
+  p{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    max-width: 40ch;
+  }
+  a{
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 50px;
+    background-color: var(--cor-cinza);
+    text-decoration: none ;
+    color: var(--cor-branca);
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+}
+
+.conjunto-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  padding: 0px 30px 40px;
+  margin: 20px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  img{
+    grid-column: 2;
+    margin-top: 1rem;
+    margin-left: 80px;
+  }
+
+  h2{
+    color: var(--cor-branca);
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    color: var(--cor-cinza);
+    font-size: 2.5rem;
+    grid-column: 1;
+  }
+  p{
+    color: var(--cor-cinza);
+    font-size: 1.7rem;
+    grid-column: 1/-1;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+}
+
+.container-sobre{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.introducao{
+  h1{
+    font-size: 4rem;
+  }
+
+  p{
+    font-size: 2.5rem;
+  }
+}
+
+.flex-image img{
+  margin: 0px 30px;
+}
+
+.bg-planos{
+  background: #F4F2F2;
+  height: 70vh;
+}
+
+.container-planos{
+  margin-top: 50px;
+  h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3rem;
+    color: var(--cor-cinza);
+  }
+  
+}
+
+.tittle{
+  width: 100%;
+  background-color: var(--cor-azul);
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+}
+
+.card-planos{
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-container{
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+
+.user-info{
+  color: #cccccc;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+select{
+  border-radius: 15px;
+  border: 1px solid var(--cor-cinza);
+  width: 285px;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+.button{
+  margin-bottom: 20px;
+  
+}
